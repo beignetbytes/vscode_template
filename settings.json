@@ -1,0 +1,51 @@
+{
+    "window.zoomLevel": -1,
+    "files.useExperimentalFileWatcher": true,
+    "python.jediEnabled": false,
+    "python.linting.pylintUseMinimalCheckers": false,
+    "python.linting.pylintArgs": [
+        "--disable=import-error,no-name-in-module,bad-whitespace"
+    ],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "vscode_custom_css.imports": [
+        "file://PATH TO LOC"
+    ],
+    "vscode_custom_css.policy": true,
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode":"basic",
+    "terminal.integrated.shell.windows": "PATH HERE",
+    "python.pythonPath": "PATH HERE",
+    "editor.tokenColorCustomizations": {
+        "[Default Dark+]": {
+            "textMateRules": [
+                {
+                    "scope": "meta.function-call.generic.python",
+                    "settings": {
+                        "foreground": "#DCDCAA"
+                    }
+                },
+                {
+                    "scope": "variable.other.enummember",
+                    "settings": {
+                        "foreground": "#DCDCAA"
+                    }
+                },
+                {
+                    "scope": "variable.other.readwrite",
+                    "settings": {
+                        "foreground": "#d4d4d4"
+                    }
+                },
+                {
+                    "scope": "meta.definition.variable.name",
+                    "settings": {
+                        "foreground": "#9CDCFE"
+                    }
+                },
+            ]
+        }
+    },
+    "jupyter.sendSelectionToInteractiveWindow": true,
+    "jupyter.askForKernelRestart": false,
+}
